@@ -22,7 +22,7 @@ unsplash_access_key = "mMFj3xFACoz6Ixbt35hhAfMYNjTo4xYxbGog7RUzTxQ"
 unsplash_secret_key = "2M7dN00cQpwbP6pBxZnK_r8HU_mhQRj-gjHWoOIInQY"  # Not used in this example
 
 # --- Flask app ---
-app = Flask(__name__)
+app = Flask(__main__)
 
 # --- Functions ---
 
