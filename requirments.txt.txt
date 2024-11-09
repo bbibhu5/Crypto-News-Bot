@@ -1,0 +1,8 @@
+feedparser
+python-binance
+openai
+python-telegram-bot
+apscheduler
+requests
+Flask
+gunicorn
