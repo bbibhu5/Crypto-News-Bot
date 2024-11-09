@@ -117,4 +117,5 @@ scheduler.start()
 
 # --- Run the Flask app ---
 if __name__ == '__main__':
-    app.run(debug=True, host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
+    port = int(os.environ.get('PORT', 8080))  # Use 8080 as the default port
+    app.run(debug=True, host='0.0.0.0', port=port)
