@@ -117,5 +117,5 @@ scheduler.start()
 
 # --- Run the Flask app ---
 if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 10000))  # Use 10000 as the default port
+    port = int(os.environ.get('PORT', 5000))  # Use 5000 as the default port
     app.run(debug=True, host='0.0.0.0', port=port)
